@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - Create Block Theme - Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/create-block-theme\n"
-"POT-Creation-Date: 2023-07-28T15:06:08+00:00\n"
-"PO-Revision-Date: 2023-07-28 16:13+0100\n"
+"POT-Creation-Date: 2023-07-28T15:48:38+00:00\n"
+"PO-Revision-Date: 2023-07-28 17:00+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -412,12 +412,12 @@ msgstr ""
 msgid "First a glass of pseudo-cognac, he ordered, and then down you dive into the cellar. Let me warn you, you'll have to lie flat on your back. Total darkness, total immobility, and a certain ocular adjustment will also be necessary. From the floor, you must focus your eyes on the nineteenth step. Once I leave you, I'll lower the trapdoor and you'll be quite alone. You needn't fear the rodents very much though I know you will. In a minute or two, you'll see the Aleph, the microcosm of the alchemists and Kabbalists, our true proverbial friend, the multum in parvo!"
 msgstr ""
 
-#: build/index.js:1 build/index.js:15
+#: build/index.js:1
 msgctxt "Font style"
 msgid "Normal"
 msgstr "Normal"
 
-#: build/index.js:1 build/index.js:15
+#: build/index.js:1
 msgctxt "Font style"
 msgid "Italic"
 msgstr "Itálico"
@@ -780,6 +780,7 @@ msgstr "Edite as propriedades dos metadados do seu tema actual."
 msgid "Create a new theme based on your current theme and either save it or export it."
 msgstr ""
 
+#: theme.json
 msgctxt "Font family name"
 msgid "System Font"
 msgstr "Tipo de letra do sistema"
