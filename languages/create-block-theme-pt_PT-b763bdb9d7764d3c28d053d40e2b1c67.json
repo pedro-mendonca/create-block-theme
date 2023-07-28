@@ -1,0 +1,141 @@
+{
+    "translation-revision-date": "2023-07-28 16:13+0100",
+    "generator": "WP-CLI\/2.7.1",
+    "source": "build\/plugin-sidebar.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "pt",
+                "plural-forms": "nplurals=2; plural=n != 1;"
+            },
+            "https:\/\/wordpress.org\/": [
+                "https:\/\/pt.wordpress.org\/"
+            ],
+            "UI String\u0004Create Block Theme": [
+                "Criar tema de blocos"
+            ],
+            "https:\/\/github.com\/wordpress\/twentytwentythree\/": [
+                "https:\/\/github.com\/wordpress\/twentytwentythree\/"
+            ],
+            "the WordPress team": [
+                "a equipa do WordPress"
+            ],
+            "Theme Info": [
+                "Informa\u00e7\u00f5es do tema"
+            ],
+            "Edit Metadata properties of the current theme.": [
+                "Edite as propriedades dos metadados do tema actual."
+            ],
+            "Theme name": [
+                "Nome do tema"
+            ],
+            "Theme description": [
+                "Descri\u00e7\u00e3o do tema"
+            ],
+            "A short description of the theme": [
+                "Uma breve descri\u00e7\u00e3o do tema"
+            ],
+            "Theme URI": [
+                "URI do tema"
+            ],
+            "Author": [
+                "Autor"
+            ],
+            "Author URI": [
+                "URI do autor"
+            ],
+            "Version": [
+                "Vers\u00e3o"
+            ],
+            "Version of the theme": [
+                "Vers\u00e3o do tema"
+            ],
+            "Theme tags": [
+                "Etiquetas do tema"
+            ],
+            "A comma-separated collection of tags": [
+                "Uma lista de etiquetas separadas por v\u00edrgulas"
+            ],
+            "Recommended Plugins": [
+                "Plugins recomendados"
+            ],
+            "Read more.": [
+                "Ler mais."
+            ],
+            "Theme Subfolder": [
+                "Subpasta do tema"
+            ],
+            "Theme updated successfully. The editor will now reload.": [
+                ""
+            ],
+            "An error occurred while attempting to update the theme.": [
+                "Ocorreu um erro ao tentar actualizar o tema."
+            ],
+            "Update": [
+                "Actualizar"
+            ],
+            "Create Theme": [
+                "Criar tema"
+            ],
+            "Enter Metadata properties of the new theme.": [
+                "Digite as propriedades dos metadados do novo tema."
+            ],
+            "Theme cloned successfully. The editor will now reload.": [
+                "Tema clonado com sucesso. O editor ser\u00e1 recarregado."
+            ],
+            "An error occurred while attempting to create the theme.": [
+                "Ocorreu um erro ao tentar criar o tema."
+            ],
+            "Clone Theme": [
+                "Clonar tema"
+            ],
+            "Create a copy of this theme on the server and activate it. The user changes will be preserved in the new theme.": [
+                ""
+            ],
+            "Export Theme": [
+                "Exportar tema"
+            ],
+            "Export a copy of this theme as a .zip file. The user changes will be preserved in the new theme.": [
+                ""
+            ],
+            "Theme created successfully. The editor will now reload.": [
+                "Tema criado com sucesso. O editor ser\u00e1 recarregado."
+            ],
+            "Create Blank Theme": [
+                "Criar tema em branco"
+            ],
+            "Create a blank theme with no styles or templates.": [
+                "Crie um tema em branco sem estilos ou modelos."
+            ],
+            "Theme saved successfully. The editor will now reload.": [
+                "Tema guardado com sucesso. O editor ser\u00e1 recarregado."
+            ],
+            "An error occurred while attempting to save the theme.": [
+                "Ocorreu um erro ao tentar guardar o tema."
+            ],
+            "Save Changes": [
+                "Guardar altera\u00e7\u00f5es"
+            ],
+            "Save user changes (including Templates and Global Styles) to the theme.": [
+                ""
+            ],
+            "An error occurred while attempting to export the theme.": [
+                "Ocorreu um erro ao tentar exportar o tema."
+            ],
+            "Export Zip": [
+                "Exportar Zip"
+            ],
+            "Export your theme as a zip file. Note: You may want to save your user changes to the theme first.": [
+                ""
+            ],
+            "Edit Metadata properties of your current theme.": [
+                "Edite as propriedades dos metadados do seu tema actual."
+            ],
+            "Create a new theme based on your current theme and either save it or export it.": [
+                ""
+            ]
+        }
+    }
+}

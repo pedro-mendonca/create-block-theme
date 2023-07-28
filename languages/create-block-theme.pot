@@ -1,0 +1,789 @@
+# Copyright (C) 2023 WordPress.org
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Create Block Theme 1.13.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/create-block-theme\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-07-28T15:11:13+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: create-block-theme\n"
+
+#. Plugin Name of the plugin
+msgid "Create Block Theme"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/create-block-theme"
+msgstr ""
+
+#. Description of the plugin
+msgid "Generates a block theme"
+msgstr ""
+
+#. Author of the plugin
+msgid "WordPress.org"
+msgstr ""
+
+#. Author URI of the plugin
+#: admin/create-theme/theme-form.php:157
+#: build/plugin-sidebar.js:1
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: admin/class-create-theme.php:62
+#: admin/class-create-theme.php:63
+#: admin/create-theme/theme-form.php:10
+#: admin/create-theme/theme-form.php:18
+#: build/plugin-sidebar.js:1
+msgctxt "UI String"
+msgid "Create Block Theme"
+msgstr ""
+
+#: admin/class-manage-fonts.php:35
+msgctxt "UI String"
+msgid "Manage Theme Fonts"
+msgstr ""
+
+#: admin/class-manage-fonts.php:39
+msgctxt "UI String"
+msgid "Embed Google font in the active theme"
+msgstr ""
+
+#: admin/class-manage-fonts.php:43
+msgctxt "UI String"
+msgid "Embed local font in the active theme"
+msgstr ""
+
+#: admin/create-theme/form-messages.php:6
+msgid "Please specify a theme name."
+msgstr ""
+
+#: admin/create-theme/form-messages.php:13
+msgid "Please specify a variation name."
+msgstr ""
+
+#: admin/create-theme/form-messages.php:21
+msgid "Block theme exported successfully!"
+msgstr ""
+
+#: admin/create-theme/form-messages.php:29
+msgid "Block theme saved and user customizations cleared!"
+msgstr ""
+
+#. translators: %1$s: Theme name
+#: admin/create-theme/form-messages.php:43
+msgid "Blank theme created, head over to Appearance > Themes to activate %1$s"
+msgstr ""
+
+#. translators: %1$s: Theme name, %2$s: Variation name
+#: admin/create-theme/form-messages.php:61
+msgid "Your variation of %1$s has been created successfully. The new variation file is in %2$s"
+msgstr ""
+
+#. translators: %1$s: Theme name, %2$s: Theme directory
+#: admin/create-theme/form-messages.php:80
+msgid "Your theme ( %1$s ) directory ( %2$s ) is not writable. Please check your file permissions."
+msgstr ""
+
+#. translators: %1$s: Theme directory
+#: admin/create-theme/form-messages.php:98
+msgid "Your themes directory ( %1$s ) is not writable. Please check your file permissions."
+msgstr ""
+
+#: admin/create-theme/theme-form.php:11
+msgid "Activate a block theme to use this tool."
+msgstr ""
+
+#. translators: %1$s: Theme Name.
+#: admin/create-theme/theme-form.php:26
+msgid "Export your current block theme (%1$s) with changes you made to Templates, Template Parts and Global Styles."
+msgstr ""
+
+#. translators: %s: Theme Name.
+#: admin/create-theme/theme-form.php:35
+msgid "Export %s"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:40
+msgid "[Export the activated theme with user changes]"
+msgstr ""
+
+#. translators: %s: Theme Name.
+#: admin/create-theme/theme-form.php:49
+msgid "Create sibling of %s"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:55
+msgid "[Create a new theme cloning the activated child theme.  The parent theme will be the same as the parent of the currently activated theme. The resulting theme will have all of the assets of the activated theme, none of the assets provided by the parent theme, as well as user changes.]"
+msgstr ""
+
+#. translators: %s: Theme Name.
+#: admin/create-theme/theme-form.php:63
+msgid "Create child of %s"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:69
+msgid "[Create a new child theme. The currently activated theme will be the parent theme.]"
+msgstr ""
+
+#. translators: %s: Theme Name.
+#: admin/create-theme/theme-form.php:76
+msgid "Clone %s"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:81
+msgid "[Create a new theme cloning the activated theme. The resulting theme will have all of the assets of the activated theme as well as user changes.]"
+msgstr ""
+
+#. translators: %s: Theme Name.
+#: admin/create-theme/theme-form.php:90
+msgid "Overwrite %s"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:95
+msgid "[Save USER changes as THEME changes and delete the USER changes.  Your changes will be saved in the theme on the folder.]"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:100
+msgid "Create blank theme"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:101
+msgid "[Generate a boilerplate \"empty\" theme inside of this site's themes directory.]"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:106
+msgid "Create a style variation"
+msgstr ""
+
+#. translators: %1$s: Theme name
+#: admin/create-theme/theme-form.php:110
+msgid "[Save user changes as a style variation of %1$s.]"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:117
+msgid "Generate"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:124
+#: admin/create-theme/theme-form.php:131
+msgid "Items indicated with (*) are required."
+msgstr ""
+
+#: admin/create-theme/theme-form.php:126
+msgid "Variation Name (*):"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:127
+msgid "Variation Name"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:133
+msgid "Theme Name (*):"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:134
+msgid "Theme Name"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:138
+msgid "Theme Description:"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:139
+msgid "A short description of the theme."
+msgstr ""
+
+#: admin/create-theme/theme-form.php:143
+msgid "Theme URI:"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:144
+msgid "The URL of a public web page where users can find more information about the theme."
+msgstr ""
+
+#: admin/create-theme/theme-form.php:145
+#: build/plugin-sidebar.js:1
+msgid "https://github.com/wordpress/twentytwentythree/"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:149
+msgid "Author:"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:150
+msgid "The name of the individual or organization who developed the theme."
+msgstr ""
+
+#: admin/create-theme/theme-form.php:151
+#: build/plugin-sidebar.js:1
+msgid "the WordPress team"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:155
+msgid "Author URI:"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:156
+msgid "The URL of the authoring individual or organization."
+msgstr ""
+
+#: admin/create-theme/theme-form.php:161
+msgid "Screenshot:"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:162
+msgid "Upload a new theme screenshot (2mb max | .png only | 1200x900 recommended)"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:167
+msgid "Image Credits:"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:168
+msgid "List the credits for each image you have included in the theme. Include the image name, license type, and source URL."
+msgstr ""
+
+#. Translators: Bundled resources licenses link.
+#: admin/create-theme/theme-form.php:173
+msgid "All bundled resources must have GPL-compatible licenses (%s)."
+msgstr ""
+
+#: admin/create-theme/theme-form.php:174
+msgid "https://make.wordpress.org/themes/handbook/review/resources/#licenses-bundled-resources"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:179
+msgid ""
+"Image Title\n"
+"License Type\n"
+"Source: https://example.com/source-url"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:190
+msgid "Recommended Plugins:"
+msgstr ""
+
+#. Translators: Recommended plugins link.
+#: admin/create-theme/theme-form.php:195
+msgid "List the recommended plugins for this theme. e.g. contact forms, social media. Plugins must be from the WordPress.org plugin repository (%s)."
+msgstr ""
+
+#: admin/create-theme/theme-form.php:196
+msgid "https://make.wordpress.org/themes/handbook/review/required/#6-plugins"
+msgstr ""
+
+#: admin/create-theme/theme-form.php:201
+msgid ""
+"Plugin Name\n"
+"https://wordpress.org/plugins/plugin-name/\n"
+"Plugin Description"
+msgstr ""
+
+#. translators: 1: New Theme name, 2: Original Theme Name. 3. Original Theme URI. 4. Original Theme Author. 5. Original Theme License. 6. Original Theme License URI.
+#: admin/create-theme/theme-readme.php:94
+msgid "%1$s is based on %2$s (%3$s), (C) %4$s, [%5$s](%6$s)"
+msgstr ""
+
+#. translators: 1: New Theme name, 2: Parent Theme Name. 3. Parent Theme URI. 4. Parent Theme Author. 5. Parent Theme License. 6. Parent Theme License URI.
+#: admin/create-theme/theme-readme.php:106
+msgid "%1$s is a child theme of %2$s (%3$s), (C) %4$s, [%5$s](%6$s)"
+msgstr ""
+
+#: admin/create-theme/theme-tags.php:36
+msgid "Theme Tags:"
+msgstr ""
+
+#. Translators: Theme Tags link.
+#: admin/create-theme/theme-tags.php:40
+msgid "Add theme tags to help categorize the theme (%s)."
+msgstr ""
+
+#: admin/create-theme/theme-tags.php:41
+msgid "https://make.wordpress.org/themes/handbook/review/required/theme-tags/"
+msgstr ""
+
+#: admin/create-theme/theme-tags.php:112
+msgid "(max 3 tags)"
+msgstr ""
+
+#: admin/create-theme/theme-tags.php:153
+msgid "Add custom tags (single or hyphenated words, separated by commas):"
+msgstr ""
+
+#: admin/create-theme/theme-tags.php:157
+msgid "custom, tags, custom-tags"
+msgstr ""
+
+#. translators: %1$s: Font family, %2$s: Theme name
+#: admin/manage-fonts/font-form-messages.php:23
+msgid "%1$s font added to %2$s theme."
+msgstr ""
+
+#: admin/manage-fonts/font-form-messages.php:25
+msgid "Manage Fonts"
+msgstr ""
+
+#. translators: %1$s: Font family, %2$s: Theme name
+#: admin/manage-fonts/font-form-messages.php:46
+msgid "Error adding %1$s font to %2$s theme. WordPress lack permissions to write the font assets."
+msgstr ""
+
+#. translators: %1$s: Font name, %2$s: Theme name
+#: admin/manage-fonts/font-form-messages.php:60
+msgid "Error adding %1$s font to %2$s theme. The uploaded file is not valid."
+msgstr ""
+
+#: admin/manage-fonts/font-form-messages.php:71
+msgid "Error removing font asset. WordPress lacks permissions to remove these font assets."
+msgstr ""
+
+#: admin/manage-fonts/font-form-messages.php:80
+msgid "Error handling font changes. WordPress lack permissions to manage the theme font assets."
+msgstr ""
+
+#. translators: %1$s: Theme name
+#: admin/manage-fonts/font-form-messages.php:92
+msgid "Font definition removed from your theme (%1$s) theme.json file."
+msgstr ""
+
+#: admin/manage-fonts/font-form-messages.php:102
+msgid "Error: `DISALLOW_FILE_EDIT` cannot be enabled in wp-config.php to make modifications to the theme using this plugin."
+msgstr ""
+
+#: admin/manage-fonts/font-form-messages.php:110
+msgid "Error: You do not have sufficient permission to edit the theme."
+msgstr ""
+
+#: includes/class-create-block-theme-api.php:108
+msgid "Readme file data retrieved."
+msgstr ""
+
+#: includes/class-create-block-theme-api.php:151
+#: includes/class-create-block-theme-api.php:201
+msgid "Theme already exists."
+msgstr ""
+
+#: includes/class-create-block-theme-api.php:171
+msgid "Cloned Theme Created."
+msgstr ""
+
+#: includes/class-create-block-theme-api.php:263
+msgid "Blank Theme Created."
+msgstr ""
+
+#: includes/class-create-block-theme-api.php:377
+msgid "Theme Updated."
+msgstr ""
+
+#: includes/class-create-block-theme-api.php:399
+msgid "Theme Saved."
+msgstr ""
+
+#: includes/class-create-block-theme-api.php:453
+msgid "There was a problem moving the theme"
+msgstr ""
+
+#: admin/js/form-script.js:159
+msgid "Theme name is not available in the WordPress.org theme directory"
+msgstr ""
+
+#: admin/js/form-script.js:163
+msgid "Theme name cannot contain the word \"theme\""
+msgstr ""
+
+#: admin/js/form-script.js:167
+msgid "Theme name cannot contain the word \"WordPress\""
+msgstr ""
+
+#: build/index.js:1
+msgid "The quick brown fox jumps over the lazy dog."
+msgstr ""
+
+#: build/index.js:1
+msgid "Incredible as it may seem, I believe that the Aleph of Garay Street was a false Aleph."
+msgstr ""
+
+#: build/index.js:1
+msgid "First a glass of pseudo-cognac, he ordered, and then down you dive into the cellar. Let me warn you, you'll have to lie flat on your back. Total darkness, total immobility, and a certain ocular adjustment will also be necessary. From the floor, you must focus your eyes on the nineteenth step. Once I leave you, I'll lower the trapdoor and you'll be quite alone. You needn't fear the rodents very much though I know you will. In a minute or two, you'll see the Aleph, the microcosm of the alchemists and Kabbalists, our true proverbial friend, the multum in parvo!"
+msgstr ""
+
+#: build/index.js:1
+msgctxt "Font style"
+msgid "Normal"
+msgstr ""
+
+#: build/index.js:1
+msgctxt "Font style"
+msgid "Italic"
+msgstr ""
+
+#: build/index.js:1
+msgid "n/a"
+msgstr ""
+
+#: build/index.js:1
+msgid "Remove"
+msgstr ""
+
+#. translators: %s: Variants information.
+#: build/index.js:3
+#: build/index.js:7
+msgid "( %s )"
+msgstr ""
+
+#. translators: %d: Number of variants.
+#: build/index.js:5
+#: build/index.js:9
+#: build/index.js:11
+msgid "%d Variant"
+msgid_plural "%d Variants"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/index.js:5
+msgid "Remove Font Family"
+msgstr ""
+
+#: build/index.js:5
+#: build/index.js:15
+msgid "Style"
+msgstr ""
+
+#: build/index.js:5
+#: build/index.js:15
+msgid "Weight"
+msgstr ""
+
+#: build/index.js:5
+#: build/index.js:15
+msgid "Preview"
+msgstr ""
+
+#: build/index.js:5
+msgid "font axis:"
+msgstr ""
+
+#: build/index.js:5
+msgid "Preview type"
+msgstr ""
+
+#: build/index.js:5
+msgid "Heading"
+msgstr ""
+
+#: build/index.js:5
+msgid "Sentence"
+msgstr ""
+
+#: build/index.js:5
+msgid "Paragraph"
+msgstr ""
+
+#: build/index.js:5
+msgid "Demo text"
+msgstr ""
+
+#: build/index.js:5
+msgid "Font size (px)"
+msgstr ""
+
+#: build/index.js:5
+msgid "Reset"
+msgstr ""
+
+#: build/index.js:5
+msgid "Info"
+msgstr ""
+
+#: build/index.js:5
+msgid "This is a list of your font families listed in the theme.json file of your theme."
+msgstr ""
+
+#: build/index.js:5
+msgid "If your theme.json makes reference to fonts providers other than local they may not be displayed correctly."
+msgstr ""
+
+#: build/index.js:11
+msgid "Manage Theme Fonts"
+msgstr ""
+
+#: build/index.js:11
+msgid "Add Google Font"
+msgstr ""
+
+#: build/index.js:11
+msgid "Add Local Font"
+msgstr ""
+
+#: build/index.js:11
+msgid "These are the fonts currently embedded in your theme "
+msgstr ""
+
+#. translators: %1$s: Font Style, %2$s: Font Weight, %3$s: Font Family
+#: build/index.js:13
+msgid "Are you sure you want to delete \"%1$s - %2$s\" variant of \"%3$s\" from your theme?"
+msgstr ""
+
+#. translators: %s: Font Family
+#: build/index.js:15
+msgid "Are you sure you want to delete \"%s\" from your theme?"
+msgstr ""
+
+#: build/index.js:15
+msgid "This action will delete the font definition and the font file assets from your theme."
+msgstr ""
+
+#: build/index.js:15
+msgid "There are no font families defined in your theme.json file."
+msgstr ""
+
+#: build/index.js:15
+msgid "Theme Fonts"
+msgstr ""
+
+#: build/index.js:15
+msgid "Back to manage fonts"
+msgstr ""
+
+#: build/index.js:15
+msgid "Add Google fonts to your theme"
+msgstr ""
+
+#: build/index.js:15
+msgid "Add Google fonts assets and font face definitions to your currently active theme"
+msgstr ""
+
+#: build/index.js:15
+msgid "Loading Google fonts data…"
+msgstr ""
+
+#: build/index.js:15
+msgid "Select Font"
+msgstr ""
+
+#: build/index.js:15
+msgid "Select a font…"
+msgstr ""
+
+#: build/index.js:15
+msgid "Select the font variants you want to include:"
+msgstr ""
+
+#: build/index.js:15
+msgid "Selected Variants"
+msgstr ""
+
+#: build/index.js:15
+msgid "Font file:"
+msgstr ""
+
+#: build/index.js:15
+msgid ".otf, .ttf, .woff, .woff2 file extensions supported"
+msgstr ""
+
+#: build/index.js:15
+msgid "Font face definition for this font file:"
+msgstr ""
+
+#: build/index.js:15
+msgid "Font name:"
+msgstr ""
+
+#: build/index.js:15
+msgid "Font name"
+msgstr ""
+
+#: build/index.js:15
+msgid "Font style:"
+msgstr ""
+
+#: build/index.js:15
+msgid "Font weight:"
+msgstr ""
+
+#: build/index.js:15
+msgid "Font weight"
+msgstr ""
+
+#: build/index.js:15
+msgid "Upload font to your theme"
+msgstr ""
+
+#: build/index.js:15
+msgid "Local Fonts"
+msgstr ""
+
+#: build/index.js:15
+msgid "Add local fonts assets and font face definitions to your currently active theme"
+msgstr ""
+
+#: build/index.js:15
+msgid "Font file preview"
+msgstr ""
+
+#: build/index.js:15
+msgid "Demo:"
+msgstr ""
+
+#: build/index.js:15
+msgid "Load a font file to preview it."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Theme Info"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Edit Metadata properties of the current theme."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Theme name"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Theme description"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "A short description of the theme"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Theme URI"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Author"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Author URI"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Version"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Version of the theme"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Theme tags"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "A comma-separated collection of tags"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Recommended Plugins"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Read more."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Theme Subfolder"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Theme updated successfully. The editor will now reload."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "An error occurred while attempting to update the theme."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Update"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Create Theme"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Enter Metadata properties of the new theme."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Theme cloned successfully. The editor will now reload."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "An error occurred while attempting to create the theme."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Clone Theme"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Create a copy of this theme on the server and activate it. The user changes will be preserved in the new theme."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Export Theme"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Export a copy of this theme as a .zip file. The user changes will be preserved in the new theme."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Theme created successfully. The editor will now reload."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Create Blank Theme"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Create a blank theme with no styles or templates."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Theme saved successfully. The editor will now reload."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "An error occurred while attempting to save the theme."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Save Changes"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Save user changes (including Templates and Global Styles) to the theme."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "An error occurred while attempting to export the theme."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Export Zip"
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Export your theme as a zip file. Note: You may want to save your user changes to the theme first."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Edit Metadata properties of your current theme."
+msgstr ""
+
+#: build/plugin-sidebar.js:1
+msgid "Create a new theme based on your current theme and either save it or export it."
+msgstr ""

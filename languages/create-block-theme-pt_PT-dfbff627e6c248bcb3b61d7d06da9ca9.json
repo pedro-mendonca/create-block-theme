@@ -1,0 +1,181 @@
+{
+    "translation-revision-date": "2023-07-28 16:13+0100",
+    "generator": "WP-CLI\/2.7.1",
+    "source": "build\/index.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "pt",
+                "plural-forms": "nplurals=2; plural=n != 1;"
+            },
+            "The quick brown fox jumps over the lazy dog.": [
+                "The quick brown fox jumps over the lazy dog."
+            ],
+            "Incredible as it may seem, I believe that the Aleph of Garay Street was a false Aleph.": [
+                ""
+            ],
+            "First a glass of pseudo-cognac, he ordered, and then down you dive into the cellar. Let me warn you, you'll have to lie flat on your back. Total darkness, total immobility, and a certain ocular adjustment will also be necessary. From the floor, you must focus your eyes on the nineteenth step. Once I leave you, I'll lower the trapdoor and you'll be quite alone. You needn't fear the rodents very much though I know you will. In a minute or two, you'll see the Aleph, the microcosm of the alchemists and Kabbalists, our true proverbial friend, the multum in parvo!": [
+                ""
+            ],
+            "Font style\u0004Normal": [
+                "Normal"
+            ],
+            "Font style\u0004Italic": [
+                "It\u00e1lico"
+            ],
+            "n\/a": [
+                "N\/D"
+            ],
+            "Remove": [
+                "Remover"
+            ],
+            "( %s )": [
+                "( %s )"
+            ],
+            "%d Variant": [
+                "%s variante",
+                "%s variantes"
+            ],
+            "Remove Font Family": [
+                "Remover fam\u00edlia tipogr\u00e1fica"
+            ],
+            "Style": [
+                "Estilo"
+            ],
+            "Weight": [
+                "Peso"
+            ],
+            "Preview": [
+                "Pr\u00e9-visualiza\u00e7\u00e3o"
+            ],
+            "font axis:": [
+                "eixo do tipo de letra:"
+            ],
+            "Preview type": [
+                "Tipo de pr\u00e9-visualiza\u00e7\u00e3o"
+            ],
+            "Heading": [
+                "T\u00edtulo"
+            ],
+            "Sentence": [
+                "Frase"
+            ],
+            "Paragraph": [
+                "Par\u00e1grafo"
+            ],
+            "Demo text": [
+                "Texto de demonstra\u00e7\u00e3o"
+            ],
+            "Font size (px)": [
+                "Tamanho da letra (px)"
+            ],
+            "Reset": [
+                "Repor"
+            ],
+            "Info": [
+                "Informa\u00e7\u00f5es"
+            ],
+            "This is a list of your font families listed in the theme.json file of your theme.": [
+                ""
+            ],
+            "If your theme.json makes reference to fonts providers other than local they may not be displayed correctly.": [
+                ""
+            ],
+            "Manage Theme Fonts": [
+                "Gerir tipos de letra do tema"
+            ],
+            "Add Google Font": [
+                "Adicionar tipo de letra do Google"
+            ],
+            "Add Local Font": [
+                "Adicionar tipo de letra local"
+            ],
+            "These are the fonts currently embedded in your theme ": [
+                "Estes s\u00e3o os tipos de letra inclu\u00eddos no seu tema de momento "
+            ],
+            "Are you sure you want to delete \"%1$s - %2$s\" variant of \"%3$s\" from your theme?": [
+                "De certeza que quer eliminar a variante \"%1$s - %2$s\" do \"%3$s\" do seu tema?"
+            ],
+            "Are you sure you want to delete \"%s\" from your theme?": [
+                "De certeza que quer eliminar \"%s\" do seu tema?"
+            ],
+            "This action will delete the font definition and the font file assets from your theme.": [
+                ""
+            ],
+            "There are no font families defined in your theme.json file.": [
+                ""
+            ],
+            "Theme Fonts": [
+                "Tipos de letra do tema"
+            ],
+            "Back to manage fonts": [
+                "Voltar para a gest\u00e3o de tipos de letra"
+            ],
+            "Add Google fonts to your theme": [
+                "Adicionar tipos de letra do Google ao seu tema"
+            ],
+            "Add Google fonts assets and font face definitions to your currently active theme": [
+                ""
+            ],
+            "Loading Google fonts data\u2026": [
+                "A carregar dados dos tipos de letra do Google\u2026"
+            ],
+            "Select Font": [
+                "Seleccionar tipo de letra"
+            ],
+            "Select a font\u2026": [
+                "Seleccione um tipo de letra\u2026"
+            ],
+            "Select the font variants you want to include:": [
+                ""
+            ],
+            "Selected Variants": [
+                "Variantes seleccionadas"
+            ],
+            "Font file:": [
+                "Ficheiro do tipo de letra:"
+            ],
+            ".otf, .ttf, .woff, .woff2 file extensions supported": [
+                ""
+            ],
+            "Font face definition for this font file:": [
+                ""
+            ],
+            "Font name:": [
+                "Nome do tipo de letra:"
+            ],
+            "Font name": [
+                "Nome do tipo de letra"
+            ],
+            "Font style:": [
+                "Estilo de letra:"
+            ],
+            "Font weight:": [
+                "Peso da letra:"
+            ],
+            "Font weight": [
+                "Peso da letra"
+            ],
+            "Upload font to your theme": [
+                "Carregar tipo de letra para o seu tema"
+            ],
+            "Local Fonts": [
+                "Tipos de letra locais"
+            ],
+            "Add local fonts assets and font face definitions to your currently active theme": [
+                ""
+            ],
+            "Font file preview": [
+                "Pr\u00e9-visualiza\u00e7\u00e3o do tipo de letra"
+            ],
+            "Demo:": [
+                "Demonstra\u00e7\u00e3o:"
+            ],
+            "Load a font file to preview it.": [
+                "Carregue um ficheiro de tipo de letra para pr\u00e9-visualizar."
+            ]
+        }
+    }
+}
